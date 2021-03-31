@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+*
+  <img src="apaar.png" alt="">
+  
+  <h3 style="color:Tomato;">Hello World</h3>
+
+  <p style="color:rgb(195, 255, 30);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  
+  <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming</title>
+</head>
+<body bgcolor="orange"> 
+ 
+  <h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Apaar"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Playz"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+<p>Gaming channel name </p>
+<style>
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Nishant bhattari</td>
+    <td>son</td>
+    <td>Nepal</td>
+  </tr>
+  <tr>
+    <td>Anu Upadhyaya</td>
+    <td>Big Sister</td>
+    <td>Nepal</td>
+  </tr>
+  <tr>
+    <td>Jagadish Upadhyaya</td>
+    <td>Dad</td>
+    <td>Nepal</td>
+  </tr>
+  <tr>
+    <td>Junu Upadhyaya</td>
+    <td>small sister</td>
+    <td>Nepal</td>
+  </tr>
+  <tr>
+    <td>Laxmi Sharma Upadhyaya</td>
+    <td>mom</td>
+    <td>Nepal</td>
+  </tr>
+  <tr>
+    <td>Apaar Upadhyaya</td>
+    <td>Apaar</td>
+    <td>Nepal</td>
+  </tr>
+</table>
+</style>
+
+</body>
+</html>
